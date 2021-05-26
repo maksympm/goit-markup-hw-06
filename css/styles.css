@@ -343,9 +343,9 @@ img {
   }
 
 .btn:hover {
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-background-color: #fff;
-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  color: var(--accent-color);
 
 }
 
@@ -860,6 +860,7 @@ color: var(--accent-color);
 
 .subscribe-form-button {
   display: flex;
+  border: none;
   width: 200px;
   height: 50px;
   margin-left: 12px;
@@ -935,10 +936,10 @@ color: var(--accent-color);
   width: 200px;
   height: 50px;
   background: var(--accent-color);
-  
+  border: none;
   border-radius: 4px;
   padding: 0;
-  
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -985,7 +986,14 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .modal-rules-link {
-
+margin-left: 5px;
+color: var(--accent-color);
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
 }
 
 
